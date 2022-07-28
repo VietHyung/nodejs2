@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YaeHyung/nodejs_test2.git"
+    "url": "git+https://github.com/YaeHyung/nodejs2.git"
   },
   "keywords": [
     "tryout"
@@ -17,9 +17,9 @@
   "author": "hyung",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/YaeHyung/nodejs_test2/issues"
+    "url": "https://github.com/YaeHyung/nodejs2/issues"
   },
-  "homepage": "https://github.com/YaeHyung/nodejs_test2#readme",
+  "homepage": "https://github.com/YaeHyung/nodejs2#readme",
   "dependencies": {
     "express": "^4.18.1"
   },
