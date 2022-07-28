@@ -1,0 +1,29 @@
+{
+  "name": "testfornodejs",
+  "version": "1.0.0",
+  "description": "testForWork",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "f8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YaeHyung/nodejs_test2.git"
+  },
+  "keywords": [
+    "tryout"
+  ],
+  "author": "hyung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YaeHyung/nodejs_test2/issues"
+  },
+  "homepage": "https://github.com/YaeHyung/nodejs_test2#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
