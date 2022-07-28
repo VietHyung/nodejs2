@@ -2,9 +2,11 @@
   "name": "testfornodejs",
   "version": "1.0.0",
   "description": "testForWork",
-  "main": "index.js",
+  "type": "module",
+  "main": "src/index.js",
   "scripts": {
-    "start": "nodemon --inspect index.js",
+    "watch": "node-sass --watch src/resources/scss/ --output src/public/css/",
+    "start": "nodemon --inspect src/index.js",
     "test": "f8"
   },
   "repository": {
@@ -21,9 +23,12 @@
   },
   "homepage": "https://github.com/YaeHyung/nodejs2#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6"
   },
   "devDependencies": {
+    "morgan": "^1.10.0",
+    "node-sass": "^7.0.1",
     "nodemon": "^2.0.19"
   }
 }
