@@ -1,0 +1,22 @@
+<div class="mt-4">
+  <div class="container ">
+    <h1>Edit Car</h1>
+    {{#each cars}}
+    <form method="post" action="/car/{{this._id}}?_method=PUT">
+      <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" value="{{this.name}}" name="name" id="name">
+      </div>
+      <div class="mb-3">
+        <label for="desc" class="form-label">Description</label>
+        <textarea class="form-control" name="desc" id="desc">{{this.desc}}</textarea>
+      </div>
+      <div class="mb-3">
+        <label for="videoId" class="form-label">Video ID</label>
+        <input type="text" class="form-control" value="{{this.videoId}}" name="videoId" id="videoId">
+      </div>
+      <button type="submit" class="btn btn-primary">Edit car</button>
+    </form>
+  </div>
+  {{/each}}
+</div>

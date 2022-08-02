@@ -1,1 +1,20 @@
-<h1>xin chao tu main</h1>
+
+
+<div class="mt-4">
+  <div class="row">
+    {{#each cars}}
+
+    <div class="col-sm-6 col-lg-4">
+      <div class="card card-car-item">
+        <img src="{{this.img}}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{this.name}}</h5>
+          <p class="card-text">{{this.desc}}</p>
+          <a href="/car/{{this.slug}}" class="btn btn-primary">Search more</a>
+        </div>
+      </div>
+    </div>
+
+    {{/each}}
+  </div>
+</div>
